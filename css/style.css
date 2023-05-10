@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 148, 101);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.logo{
+    font-size: 28px;
+    color:  rgb(109, 69, 4);
+    /* font-style: italic; */
+}
+
+span{
+    color: white;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.nav-links ul{
+    list-style: none;
+   
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    margin: 10px 10px;
+    
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.nav-links ul li a:hover{
+    color: tomato;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.content{
+    margin-top: 10%;
+    display: flex;
+}
+
+.content .right-div{
+    width: 50%;
+    padding: 0px 10px;
+}
+
+.right-div h1{
+    color:  rgb(109, 69, 4);
+    margin-bottom: 20px;
+    font-weight: 25px;
+    padding-left: 16%;
+}
+
+.right-div p{
+    color: #fff;
+    width: 550px;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0px 15%;
+}
+
+.right-div button{
+    padding: 10px 20px;
+    background-color:  rgb(109, 69, 4);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 15%;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.left-div img{
+    width: 450px;
+    height: 350px;
+    
+}
